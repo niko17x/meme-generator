@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.header--container {
+  display: grid;
+  grid-template-columns: min-content 1fr 1fr;
+  align-items: center;
+  height: 7rem;
+
+
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 0 2rem;
+}
+
+.header--container > h3 {
+  justify-self: flex-end;
+}
