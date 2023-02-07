@@ -17,3 +17,55 @@
 .header--container > h3 {
   justify-self: flex-end;
 }
+
+/* MEME.JS */
+
+.meme--container {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5rem;
+}
+
+.meme--input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.meme--input > * {
+  width: 25rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  padding: 1.3rem;
+}
+
+.meme--input > input:focus {
+  outline: none;
+  border: 2px solid lightgray;
+}
+
+.meme--first_input:focus {
+  border:none;
+}
+
+.meme--submit_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  font-size: 1.5rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  padding: 1.3rem;
+}
+
+.meme--submit_button > img {
+  height: 2rem;
+  width: 2rem;
+}
